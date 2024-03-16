@@ -4,7 +4,7 @@ author: "limhasong"
 
 runs:
   using: "node20"
-  main: "dist/index.js"
+  main: "lib/index.js"
 
 inputs:
   name:
