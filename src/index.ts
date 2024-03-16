@@ -1,1 +1,5 @@
-console.log("hello!!!!!!!1");
+import { getInput } from "@actions/core";
+
+const name = getInput("name");
+
+console.log(`Hello ${name}!`);
